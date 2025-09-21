@@ -5,11 +5,11 @@ int main(){
 
     //carta 1
     char Carta1;
-    char Estado[3];
-    char Código[20];
-    char NomeDaCidade[30];
+    char Estado[15];
+    char Código [5];
+    char NomeDaCidade[20];
     int Populacao;
-    float Area;
+    float Área;
     float PIB;
     int Pontos_turisticos;
 
@@ -19,7 +19,7 @@ int main(){
     char Código2[20];
     char NomeDaCidade2[30];
     int Populacao2;
-    float Area2;
+    float Área2;
     float PIB2;
     int Pontos_turisticos2;
 
@@ -28,47 +28,47 @@ int main(){
     printf("Carta1: \n");
 
     printf("Estado: ");
-    scanf("%s", Estado);
+    scanf("%s", &Estado);
 
     printf("Código: \n");
     scanf("%s", Código);
    
-    printf("NomeDaCidade: \n");
-    scanf("%s", NomeDaCidade);
+    printf("Nome da cidade: \n");
+    scanf("%s", &NomeDaCidade);
 
     printf("Populacao: \n");
     scanf("%i", &Populacao);
 
-    printf("Area: ");
-    scanf("%f", &Area);
+    printf("Área: ");
+    scanf("%f", &Área);
     
-    printf("PIB:\n");
+    printf("PIB: \n");
     scanf("%f", &PIB);
 
-    printf("Pontos_turisticos:\n");
+    printf("Pontos turisticos: \n");
     scanf("%i", &Pontos_turisticos);
     
     //carta2
 
-    printf("Estado2: ");
+    printf("Estado: ");
     scanf("%s", Estado2);
 
-    printf("Código2: \n");
+    printf("Código: \n");
     scanf("%s", &Código2);
    
-    printf("NomeDaCidade2: \n");
+    printf("Nome da cidade: \n");
     scanf("%s", NomeDaCidade2);
 
-    printf("Populacao2: \n");
+    printf("Populacao: \n");
     scanf("%i", &Populacao2);
 
-    printf("Area2: \n");
-    scanf("%f", &Area2);
+    printf("Área: \n");
+    scanf("%f", &Área2);
 
-    printf("PIB2: \n");
+    printf("PIB: \n");
     scanf("%f", &PIB2);
 
-    printf("Pontos_turisticos2: ");
+    printf("Pontos turisticos: ");
     scanf("%i", &Pontos_turisticos2);
 
 
