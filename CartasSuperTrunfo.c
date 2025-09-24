@@ -40,12 +40,14 @@ int main(){
     scanf("%d", &Pontos_turisticos);
     
     Densidade = (float) Populacao / Área;
+
     printf("Densidade populacional: %.2f hab./km²\n", Densidade);
 
-    PIBPERCAPITA = (float) PIB / Populacao;
+    PIBPERCAPITA = (float) Populacao / PIB;
+
     printf("PIB per Capita: %.2f\n", PIBPERCAPITA);
 
-
+    // CARTA 2
 
 
 return 0;
